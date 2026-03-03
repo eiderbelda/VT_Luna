@@ -32,9 +32,9 @@ import struct
 from std_msgs.msg import Bool           # True/False
 from geometry_msgs.msg import PoseStamped  # position + orientation
 from nav_msgs.msg import Odometry       # pose + velocity (+ covariance)
-"Use a dedicated driver package that connects to hardware (like OptiTrack or Vicon) 
-and publishes the data as ROS 2 topics,
-typically geometry_msgs/msg/PoseStamped or nav_msgs/msg/Odometry"
+#Use a dedicated driver package that connects to hardware (like OptiTrack or Vicon) 
+#and publishes the data as ROS 2 topics,
+#typically geometry_msgs/msg/PoseStamped or nav_msgs/msg/Odometry"
 
 
 # ============================================================
